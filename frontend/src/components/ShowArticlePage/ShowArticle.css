@@ -1,0 +1,209 @@
+.article_detials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 150%;
+    font-style: italic;
+    margin: 2rem 15rem 1rem 15rem;
+}
+
+.article_div{
+    background: white;
+    margin: 0 15rem 2rem 15rem;
+    min-height: 100rem;
+    box-shadow: 0 0 0.5rem rgba(155, 153, 153, 0.41);
+    padding: 3rem;
+    font-size: 15px;
+}
+
+.article_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 17rem 10rem 17rem
+}
+
+.up_down_vote{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    font-size: 120%;
+    font-weight: 500;
+}
+
+.like_sare_save{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 500;
+    /* color: rgba(0, 0, 0, 0.716); */
+}
+
+.article_div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.comment_section{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 15rem 0 15rem ;
+    flex-direction: column;
+}
+
+.comment_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+    min-height: 10rem;
+}
+
+.comment_profile_images{
+    width: 40px;
+    border-radius: 100%;
+    align-items: center;
+    margin: 1rem;
+}
+
+.comment_div{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.comment_input{
+    width : 70vw;
+    margin: 2rem 0;
+    height:5rem;
+    border:none;
+    outline:none;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 2px rgb(118, 116, 116);
+    padding: 1rem;
+    padding-left: 2rem;
+    /* background-color: red; */
+}
+
+#comment_btn{
+    color: white;
+    background-color: rgb(19, 125, 170);
+    width: 12rem;
+    height: 5rem;
+    margin-left: 1rem;
+}
+
+#comment_btn:hover{
+    background-color: rgb(6, 91, 128);
+}
+
+
+.add_comment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100vw;
+    margin: 0;
+}
+
+.article_icons:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(105%);
+}
+/* 
+#profile_post {
+    color: rgba(0, 0, 0, 0.716);
+}
+
+#profile_like {
+    color: rgba(0, 0, 0, 0.716);
+}
+
+#profile_save {
+    color: rgba(0, 0, 0, 0.716);
+} */
+
+#article_post:hover {
+    color: rgb(196, 138, 2);
+}
+
+#article_like:hover {
+    color: crimson;
+}
+
+#article_save:hover {
+    color: rgb(27, 113, 243);
+}
+
+@media screen and (max-width:1254px) {
+    .showarticle_div{
+        margin-top: 10rem;
+    }
+
+    .article_div {
+        margin: 2rem;
+        max-width: 100vw;
+    }
+        .article_detials {
+            max-width: 100vw;
+            margin: 2rem;
+            margin-top: 5rem;
+        }
+
+                .article_footer {
+                    max-width: 100vw;
+                    margin: 2rem;
+                }
+
+        .comment_section {
+            max-width: 100vw;
+            margin: 2rem;
+        }
+
+                .comment_input {
+                    max-width: 65vw;
+                    margin: 2rem;
+                    max-height: 5rem;
+                    border: none;
+                    outline: none;
+                    border-radius: 0.3rem;
+                    box-shadow: 0 0 2px rgb(118, 116, 116);
+                    padding: 1rem;
+                    padding-left: 1.5rem;
+                    /* background-color: red; */
+                }
+        
+                #comment_btn {
+                    color: white;
+                    background-color: rgb(19, 125, 170);
+                    max-width: 12rem;
+                    max-height: 5rem;
+                    margin-left: 1rem;
+                }
+}
+
+
+@media screen and (max-width:597px) {
+    .showarticle_div{
+        font-size: 90%;
+    }
+
+        .add_comment {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+                .comment_input {
+                    margin-left: 1rem;
+                }
+
+        .article_div {
+            padding: 1rem;
+            font-size: 5px;
+        }
+}

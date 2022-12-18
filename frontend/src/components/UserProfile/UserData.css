@@ -1,0 +1,37 @@
+.user_data_route_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    margin-top: 5rem;
+}
+
+.profile_icons{
+    text-align: center;
+    font-size: 130%;
+}
+.profile_icons i{
+    font-size: 200%;
+    margin-bottom: 1rem;
+}
+
+.user_data_categ{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin: 5rem 0;
+}
+
+@media screen and(max-width:254px) {
+    .user_data_route_icons {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media screen and(max-width:254px) {
+    .user_data_route_icons {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,139 @@
+.footer_div{
+    margin-top: 15rem;
+    background: #034F70;
+    width: 100vw;
+    height: 35rem;
+    padding: 8rem 12rem;
+    color: white;
+    font-size: 180%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.form_div{
+    grid-column: 3/4;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    height: 17rem;
+    gap: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 17rem;
+}
+
+.quick_links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.links{
+    font-size: 80%;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+
+.quick_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.form_input{
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    padding: 1rem;
+    color: black;
+    border-radius: 0.5rem;
+    width: 30rem;
+    margin-bottom:1rem;
+}
+
+#Subscribe:hover{
+cursor: pointer;
+}
+
+.meida_icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 150%;
+}
+
+.m_icons{
+    font-size: 3rem;
+    color: white;
+}
+
+.copyright{
+    background: #023c55;
+    width: 100vw;
+    height: 5rem;
+    padding: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 80%;
+    font-weight: 200;
+}
+
+
+
+@media screen and (max-width: 840px) {
+    .footer_div {
+            margin-top: 10rem;
+            padding: 2rem 4rem;
+        }
+
+                .copyright{
+                    position: sticky;
+                    bottom: 0;
+                    margin-bottom: -2rem;
+                }
+}
+
+@media screen and (max-width: 586px) {
+    .footer_div {
+            font-size: 95%;
+            height: 90%;
+        }
+
+                .copyright{
+                    position: sticky;
+                    bottom: 0;
+                    margin-bottom: -2rem;
+                }
+                                .m_icons {
+                                    font-size: 2rem;
+                                    color: white;
+                                    margin-top: 0.5rem;
+                                }
+                    .form_input {
+                        height: 3rem;
+                        width: 25rem;
+                        margin-bottom: 0.5rem;
+                    }
+                    .btn{
+                        height: 3rem;
+                    }
+                    .upper_content{
+                        display: flex;
+                        flex-direction: column;
+                    }
+}

@@ -1,0 +1,114 @@
+.uploadVideos_top_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 400px;
+    gap: 80px;
+}
+
+.input_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.create_vid{
+    margin-top: 8rem;
+    width: 350px;
+}
+
+.uploadArticleForm{
+    justify-content: flex-start;
+    text-align: left;
+}
+
+#createProductFormFile>input {
+    display: flex;
+    padding: 0%;
+    margin: 15px 0;
+}
+
+#createProductFormFile>input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    font-size: larger;
+    margin: 0%;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(212, 211, 211);
+}
+
+#createProductFormFile>input::file-selector-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+#createProductFormVideo {
+    min-width: 90vw;
+        min-height: 500px;
+        overflow-y: scroll;
+        border-radius: 10px;
+        background: rgba(239, 238, 238, 0.521);
+        padding: 20px 10px;
+        position: relative;
+        top: 120px;
+}
+
+#createProductFormVideo>video {
+    width: 17vmax;
+    margin: 0 0.5vmax;
+}
+
+/* 
+@media screen and (max-width: 600px) {
+    .newProductContainer {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .createProductForm {
+        padding: 5vmax;
+    }
+
+    .createProductForm>div>input,
+    .createProductForm>div>select,
+    .createProductForm>div>textarea {
+        padding: 2.5vmax 5vmax;
+        font: 300 1.7vmax cursive;
+    }
+
+    .createProductForm>div>svg {
+        font-size: 2.8vmax;
+    }
+
+    #createProductFormFile>img {
+        width: 8vmax;
+        border-radius: 100%;
+    }
+
+    #createProductFormFile>input::file-selector-button {
+        height: 7vh;
+        font: 400 1.8vmax cursive;
+    }
+
+    #createProductBtn {
+        font: 300 1.9vmax "Roboto";
+        padding: 1.8vmax;
+    }
+} */
+
+@media screen and (max-width: 1135px) {
+    #createProductFormVideo {
+        top: 450px;
+    }
+
+}
+
+@media screen and (max-width: 554px) {
+    #createProductFormVideo {
+        top: 400px;
+    }
+        .create_vid {
+            width: 80%;
+        }
+}

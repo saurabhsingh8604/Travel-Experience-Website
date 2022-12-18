@@ -1,0 +1,25 @@
+.images_gallery_div{
+    width: 85.5vw;
+    margin: auto;
+}
+
+.images_gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gal_img{
+    width: 30rem;
+    margin: 1.3rem;
+    box-shadow: 0 0 0.5rem rgba(141, 141, 141, 0.415);
+}
+
+
+@media screen and (max-width: 361px){
+.gal_img {
+        width: 90%;
+    }
+
+}

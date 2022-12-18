@@ -1,0 +1,41 @@
+.card_div{
+    box-shadow: none;
+}
+
+.card_content_div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 31.5rem;
+    height: 42rem;
+    gap: 0%;
+}
+
+/* .card_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+} */
+
+.title{
+    position: relative;
+    top: -12.8rem;
+    color: white;
+    font-size: 250%;
+}
+
+.card_image{
+    filter: brightness(80%);
+}
+
+.title{
+    margin-top: 0%;
+}
+
+.desc {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+    height: 45px;
+    overflow: hidden;
+}

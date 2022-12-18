@@ -1,0 +1,34 @@
+.filter_div{
+    margin: 2rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.filters{
+    outline: none;
+    border: none;
+    width: 25rem;
+    padding: 0.5rem;
+    height: 4rem;
+    box-shadow: 0 0 0.2rem rgba(104, 103, 103, 0.24);
+    color: rgba(0, 0, 0, 0.741);
+}
+
+
+option{
+    border-radius: 0;
+}
+
+
+@media screen and (max-width : 546px) {
+    .filter_div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 2rem;
+        }
+}

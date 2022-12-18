@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  
+}
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+li{
+  list-style: none;
+}

@@ -1,0 +1,112 @@
+.userDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.profile_image{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.left_portion{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 25rem;
+    height: 30rem;
+    gap: 2rem;
+    padding: 4rem;
+    margin-top: 10rem;
+    /* box-shadow: 0 0 1rem rgba(70, 70, 70, 0.264); */
+}
+
+.right_portion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 120%;
+    margin-top: 6rem;
+}
+
+.user_detials_heading{
+    margin-bottom: 2rem;
+}
+
+.profile_icons:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(105%);
+}
+
+#profile_post{
+color: rgba(0, 0, 0, 0.716);
+}
+#profile_like{
+color: rgba(0, 0, 0, 0.716);
+}
+#profile_save{
+color: rgba(0, 0, 0, 0.716);
+}
+
+#profile_post:hover{
+    color: rgb(196, 138, 2);
+}
+#profile_like:hover{
+    color: crimson;
+}
+#profile_save:hover{
+    color: rgb(27, 113, 243);
+}
+
+.myarticles_container{
+    margin: 70px;
+    padding: 3rem;
+    box-shadow: 0 0 3px rgba(112, 112, 112, 0.644);
+    min-height: 500px;
+}
+
+
+@media screen and (max-width:490px) {
+    .userDetails{
+        flex-direction: column;
+        gap:0rem;
+    }
+
+    .left_portion {
+        padding: 0;
+    }
+
+    .right_portion {
+    margin-top: 0;
+    }
+
+        .profile_image {
+            width: 80%;
+            border-radius: 100%;
+        }
+
+                .user_data_route_icons {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2rem;
+                    margin-top: 5rem;
+                }
+    
+    .myarticles_container{
+        margin: 5rem auto;
+    }
+}
+
+@media screen and (max-width:366px) {
+    .myarticles_container {
+        margin-top: 70px;
+        padding: 0;
+        box-shadow: 0 0 3px rgba(112, 112, 112, 0.644);
+        min-height: 500px;
+    }
+}

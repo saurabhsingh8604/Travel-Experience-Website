@@ -1,0 +1,48 @@
+.card_div{
+    padding: 1.5rem;
+    box-shadow: 0 0 1rem rgba(129, 128, 128, 0.262);
+    width: 35rem;
+    height: 46rem;
+}
+
+.card_content_div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 31.5rem;
+    height: 40rem;
+    gap: 1rem;
+}
+
+.card_image{
+    width: 100%;
+}
+
+.card_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    gap: 1rem;
+}
+.desc{
+
+    margin-bottom: 2rem !important;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 361px){
+    .card_image {
+        width: 80%;
+    }
+    .card_content_div {
+        width: 20rem;
+        height: 20rem;
+        gap: 0.5rem;
+    }
+        .card_content {
+           gap:0.5rem;
+           width: 80%;
+           margin: 0.5rem;
+        }
+}
